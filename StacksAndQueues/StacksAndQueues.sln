@@ -11,13 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.SimpleCalculator", "P03
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.MatchingBrackets", "P04.MatchingBrackets\P04.MatchingBrackets.csproj", "{421FBB63-C22F-4B3D-A229-8E05D22D6036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.PrintEvenNumbers", "P05.PrintEvenNumbers\P05.PrintEvenNumbers.csproj", "{2FD4E821-29B0-4595-8B8D-8FCB19486BEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.PrintEvenNumbers", "P05.PrintEvenNumbers\P05.PrintEvenNumbers.csproj", "{2FD4E821-29B0-4595-8B8D-8FCB19486BEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.Supermarket", "P06.Supermarket\P06.Supermarket.csproj", "{2706B689-F6CC-45E8-9A35-D76D994F8980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.Supermarket", "P06.Supermarket\P06.Supermarket.csproj", "{2706B689-F6CC-45E8-9A35-D76D994F8980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.HotPotato", "P07.HotPotato\P07.HotPotato.csproj", "{1F0AD01A-3055-4F2E-A4BA-333C402E57E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.HotPotato", "P07.HotPotato\P07.HotPotato.csproj", "{1F0AD01A-3055-4F2E-A4BA-333C402E57E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.TrafficJam", "P08.TrafficJam\P08.TrafficJam.csproj", "{78ED62F9-B02D-4330-AB07-4D65A84923DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.TrafficJam", "P08.TrafficJam\P08.TrafficJam.csproj", "{78ED62F9-B02D-4330-AB07-4D65A84923DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.BasicStackOperations", "P09.BasicStackOperations\P09.BasicStackOperations.csproj", "{1C95DEEE-C55A-443F-8D35-64C64F59143C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10.BasicQueueOperations", "P10.BasicQueueOperations\P10.BasicQueueOperations.csproj", "{11712E6B-89E6-41A7-96D0-1F2EB353EE11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11.MaximumAndMinimumElement", "P11.MaximumAndMinimumElement\P11.MaximumAndMinimumElement.csproj", "{57F1EECF-A7A6-4C8B-9BF3-BE8AFA937FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12.FastFood", "P12.FastFood\P12.FastFood.csproj", "{79472B9F-430B-4F1C-A643-D81148B41396}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{78ED62F9-B02D-4330-AB07-4D65A84923DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78ED62F9-B02D-4330-AB07-4D65A84923DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78ED62F9-B02D-4330-AB07-4D65A84923DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C95DEEE-C55A-443F-8D35-64C64F59143C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C95DEEE-C55A-443F-8D35-64C64F59143C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C95DEEE-C55A-443F-8D35-64C64F59143C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C95DEEE-C55A-443F-8D35-64C64F59143C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11712E6B-89E6-41A7-96D0-1F2EB353EE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11712E6B-89E6-41A7-96D0-1F2EB353EE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11712E6B-89E6-41A7-96D0-1F2EB353EE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11712E6B-89E6-41A7-96D0-1F2EB353EE11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F1EECF-A7A6-4C8B-9BF3-BE8AFA937FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F1EECF-A7A6-4C8B-9BF3-BE8AFA937FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F1EECF-A7A6-4C8B-9BF3-BE8AFA937FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F1EECF-A7A6-4C8B-9BF3-BE8AFA937FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79472B9F-430B-4F1C-A643-D81148B41396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79472B9F-430B-4F1C-A643-D81148B41396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79472B9F-430B-4F1C-A643-D81148B41396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79472B9F-430B-4F1C-A643-D81148B41396}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
