@@ -1,32 +1,34 @@
 ﻿namespace LineNumbers
 {
+    using System;
     using System.IO;
+    using System.Linq;
+
     public class LineNumbers
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            string inputPath = @"..\..\..\Files\input.txt";
-            string outputPath = @"..\..\..\Files\output.txt";
+            string inputFilePath = @"..\..\..\text.txt";
+            string outputFilePath = @"..\..\..\output.txt";
 
-            RewriteFileWithLineNumbers(inputPath, outputPath);
+            ProcessLines(inputFilePath, outputFilePath);
         }
 
-        public static void RewriteFileWithLineNumbers(string inputFilePath, string outputFilePath)
+        public static void ProcessLines(string inputFilePath, string outputFilePath)
         {
-            using (var reader = new StreamReader(inputFilePath))
+            string[] lines = File.ReadAllLines(inputFilePath);
+            for (int i = 0; i < lines.Length; i++)
             {
-
-                using (var writer = new StreamWriter(outputFilePath))
-                {
-                    int counter = 1;
-                    while (!reader.EndOfStream)
-                    {
-                        string line = reader.ReadLine();
-                        writer.WriteLine($"{counter}. {line}");
-                        counter++;
-                    }
-                }
+                string line = lines[i];
+                int lettersCount = line.Count(char.IsLetter);
+                int marksCount = line.Count(char.IsPunctuation);
+                lines[i] = $"Line {i + 1}: {line} ({lettersCount})({marksCount})";
             }
+            foreach (var item in lines)
+            {
+                Console.WriteLine(item);
+            }
+            //File.WriteAllLines(outputFilePath, lines);
         }
     }
 }
