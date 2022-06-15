@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Froggy
+{
+    public class StartUp
+    {
+        public static void Main(string[] args)
+        {
+            var lake = new Lake(Console.ReadLine().Split(", ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray());
+
+            Console.WriteLine(string.Join(", ", lake));
+        }
+    }
+}
